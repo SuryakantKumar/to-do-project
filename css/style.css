@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+/*----------------------------------------> Header <-----------------------------------------------*/
+
+header {
+    height: 16vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 100;
+    justify-content: center;
+    color: rgba(175, 47, 47, 0.15);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------> Add list input <--------------------------------------------*/
+
+.container {
+    background: white;
+    width: 60vw;
+    margin-left: 20vw;
+    box-shadow:0 0 5px rgba(0,0,0,0.6);
+}
+
+.add-list {
+    width: 60vw;
+    height: 10vh;
+}
+
+.add-list input {
+    height: 10vh;
+    width: 48vw;
+    padding: 0vh 6vw;
+    font-size: 24px;
+    font-weight: 100;
+    justify-content: center;
+    color: black;
+    border: 0.1vw solid whitesmoke;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    font-style: italic;
+    opacity: 0.1;
+}
+
+/* ----------------------------------------> Content <------------------------------------------ */
+
+.content {
+    width: 60.2vw;
+    background-color: white;
+}
+
+.content ul {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    width: 60vw;
+    height: 10vh;
+    font-size: 24px;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+.item i.co {
+    position: absolute;
+    font-size: 30px;
+    left: 20px;
+    top: 2vw;
+    opacity: 0.3;
+}
+
+.item i.co:hover {
+    cursor: pointer;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.item p.text {
+    position: absolute;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 200;
+    left: 70px;
+    top: 2vw;
+    opacity: 0.5;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.item i.de {
+    color: darkred;
+    position: absolute;
+    font-size: 25px;
+    right: 25px;
+    top: 2vw;
+    opacity: 0.5;
+}
+
+.item i.de:hover {
+    cursor: pointer;
+}
+
+/* ----------------------------------------> Developer <------------------------------------------ */
+
+.developer{
+    font-size: 10px;
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+    color: black;
+    opacity: 0.5;
+    margin-top: 100px;
+}
